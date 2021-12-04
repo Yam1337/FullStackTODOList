@@ -1,9 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { MainPage } from "./pages/mainPage/index";
+import { GlobalStyle } from "./globalstyles";
 
 function App() {
-  return <div>Hello, this is front-end dog :3</div>;
+  return (
+    <>
+      <GlobalStyle />
+      <MainPage />
+    </>
+  );
 }
 
 export default App;
