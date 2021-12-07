@@ -1,9 +1,10 @@
 import { MainPageWrapper } from "./styles";
+import { InputBar } from "../../components/inputBar/index";
 
 export const MainPage = () => {
   return (
-    // <MainPageWrapper>
-    <div>This is main page</div>
-    /* </MainPageWrapper> */
+    <MainPageWrapper>
+      <InputBar />
+    </MainPageWrapper>
   );
 };
